@@ -2,3 +2,4 @@ Scrapy==2.10.1
 pymongo==4.5.0
 scrapy-playwright==0.0.31
 user-agents==2.2.0
+scrapy-user-agents==0.1.1
