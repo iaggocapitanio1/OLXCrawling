@@ -5,6 +5,9 @@
 
 Este projeto é focado em obter dados de propriedades da OLX, navegando por seu conteúdo dinâmico. Ferramentas como Splash e Playwright são usadas para garantir a precisão da extração. A solução é desenvolvida respeitando padrões éticos, com ênfase no rate-limiting e no arquivo robots.txt.
 
+### Requesitos:
+- Python 3.9>+
+
 ## Branches do Projeto:
 ### 1. Master (Playwright):
 - **Características:** 
