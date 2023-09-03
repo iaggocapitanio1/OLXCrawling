@@ -50,7 +50,7 @@ class OlxSpider(scrapy.Spider):
         items: List[Selector] = response.xpath(self.ITEMS_XPATH)
         page = response.meta['playwright_page']
 
-        for index, item in enumerate(items[:1]):
+        for index, item in enumerate(items):
             item_xpath = self.ITEMS_XPATH + f"[{index + 1}]"
 
             # Scroll to the current item. This makes sure the item is in view before extracting.
